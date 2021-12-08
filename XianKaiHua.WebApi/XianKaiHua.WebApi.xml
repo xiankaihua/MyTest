@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XianKaiHua.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:XianKaiHua.WebApi.Startup">
+            <summary>
+            启动
+            </summary>
+        </member>
+        <member name="M:XianKaiHua.WebApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            创建数据库链接
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:XianKaiHua.WebApi.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:XianKaiHua.WebApi.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            服务类
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:XianKaiHua.WebApi.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            中间件
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+        <member name="T:XianKaiHua.WebApi.IOCExtend">
+            <summary>
+            IOC容器
+            </summary>
+        </member>
+        <member name="M:XianKaiHua.WebApi.IOCExtend.AddCustomIOC(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            添加容器服务
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XianKaiHua.WebApi.IOCExtend.AddCustomJWT(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            鉴权服务
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

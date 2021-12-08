@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>XianKaiHua.Test.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:XianKaiHua.Test.WebApi.IOCExtend">
+            <summary>
+            IOC容器
+            </summary>
+        </member>
+        <member name="M:XianKaiHua.Test.WebApi.IOCExtend.AddCustomIOC(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            添加容器服务
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XianKaiHua.Test.WebApi.IOCExtend.AddCustomJWT(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            添加鉴权服务
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:XianKaiHua.Test.WebApi.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            创建数据库链接
+            </summary>
+            <param name="configuration"></param>
+        </member>
+    </members>
+</doc>

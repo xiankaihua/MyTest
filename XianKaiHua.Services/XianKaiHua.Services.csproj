@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XianKaiHua.IServices\XianKaiHua.IServices.csproj" />
+    <ProjectReference Include="..\XianKaiHua.Models\XianKaiHua.Models.csproj" />
+    <ProjectReference Include="..\XianKaiHua.Repository\XianKaiHua.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

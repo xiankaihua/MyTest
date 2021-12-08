@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>E:\资源练习\API\XianKaiHua.Web\XianKaiHua.WebApi\XianKaiHua.WebApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\XianKaiHua.Auxiliary\XianKaiHua.Auxiliary.csproj" />
+    <ProjectReference Include="..\XianKaiHua.Extensions\XianKaiHua.Extensions.csproj" />
+    <ProjectReference Include="..\XianKaiHua.IRepository\XianKaiHua.IRepository.csproj" />
+    <ProjectReference Include="..\XianKaiHua.IServices\XianKaiHua.IServices.csproj" />
+    <ProjectReference Include="..\XianKaiHua.Repository\XianKaiHua.Repository.csproj" />
+    <ProjectReference Include="..\XianKaiHua.Services\XianKaiHua.Services.csproj" />
+  </ItemGroup>
+
+</Project>
