@@ -28,7 +28,7 @@ namespace XianKaiHua.Test.WebApi
         public static IServiceCollection AddCustomIOC(this IServiceCollection services)
         {
             //接口与服务
-            //services.AddScoped<IPersonServices, PersonServices>();
+            services.AddScoped<IPersonServices, PersonServices>();
             //services.AddScoped<IMenuRepository, MenuRepository>();
 
             //services.AddScoped<IBasRepoService, BasRepoService>();

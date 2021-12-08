@@ -4,4 +4,17 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\XianKaiHua.Auxiliary\XianKaiHua.Auxiliary.csproj" />
+    <ProjectReference Include="..\XianKaiHua.Extensions\XianKaiHua.Extensions.csproj" />
+    <ProjectReference Include="..\XianKaiHua.IRepository\XianKaiHua.IRepository.csproj" />
+    <ProjectReference Include="..\XianKaiHua.IServices\XianKaiHua.IServices.csproj" />
+    <ProjectReference Include="..\XianKaiHua.Repository\XianKaiHua.Repository.csproj" />
+    <ProjectReference Include="..\XianKaiHua.Services\XianKaiHua.Services.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\" />
+  </ItemGroup>
+
 </Project>

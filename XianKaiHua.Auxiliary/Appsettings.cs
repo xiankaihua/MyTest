@@ -65,6 +65,7 @@ namespace XianKaiHua.Auxiliary
         {
             List<T> list = new List<T>();
             // 引用 Microsoft.Extensions.Configuration.Binder 包
+            //<PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
             Configuration.Bind(string.Join(":", sections), list);
             return list;
         }

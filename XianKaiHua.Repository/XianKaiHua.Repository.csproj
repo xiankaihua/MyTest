@@ -4,8 +4,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="SqlSugarCore" Version="5.0.2.6" />
-    <PackageReference Include="SqlSugar.IOC" Version="1.3.0" />
+    <PackageReference Include="SqlSugarCore" Version="5.0.4.7" />
+    <PackageReference Include="SqlSugar.IOC" Version="1.7.0" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XianKaiHua.Auxiliary\XianKaiHua.Auxiliary.csproj" />

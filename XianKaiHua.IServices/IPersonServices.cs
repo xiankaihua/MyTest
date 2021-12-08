@@ -9,7 +9,10 @@ using XianKaiHua.Models.Entity;
 namespace XianKaiHua.IServices
 {
     //public interface IPersonServices: IBaseRepository<Person>
-    public interface IPersonServices : IMultiTenant<Person>
+    public interface IPersonServices : IMulti<person>
+    //public interface IPersonServices : IBaseRepositoryMultlTenant<person>
     {
+
+        public List<person> TestGetList(int pageSize, int pageIndex, string titles, out int total);
     }
 }
