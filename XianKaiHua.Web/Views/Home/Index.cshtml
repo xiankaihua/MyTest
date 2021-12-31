@@ -1,6 +1,7 @@
 ﻿@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml"; 
 }
-
 <title>测试分表</title>
 <div class="layui-card-body">
     <form class="layui-form  layui-form-pane" id="b" action="">
@@ -41,19 +42,6 @@
                 <input type="text" name="endTime" id="endTime" placeholder="结束时间" autocomplete="off" class="layui-input" value="" style="width:120px;">
             </div>
         </div>
-
-        @*<div class="layui-inline">
-                <label class="layui-form-label">时间:</label>
-                <div class="layui-input-inline">
-                    <input type="text" name="clasname" id="clasname" placeholder="请输入" autocomplete="off" class="layui-input" value="">
-                </div>
-            </div>*@
-        @*<div class="layui-form-item" style="display: inline-block; vertical-align: middle; position: relative; margin-bottom: 0px;">
-
-            </div>*@
-
-
-
         <div class="layui-inline">
             <div class="layui-inline">
                 <button class="layui-btn icon-btn  layui-btn-sm" id="searchBtn" type="button"> <i class="layui-icon layui-icon-search"></i>搜索</button>

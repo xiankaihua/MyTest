@@ -37,10 +37,10 @@ namespace XianKaiHua.Test.WebApi.Controllers
         }
 
         [HttpGet("Add")]
-        public async Task<HostModel> Add()
+        public async Task<HostModel> Add1()
         {
             var id = this.User.FindFirst("Id").Value;
-            var data = await _ipersonServices.Add(new Models.Entity.Person {  tid = Guid .NewGuid().ToString()});
+            var data = await _ipersonServices.Add(new Models.Entity.person {  tid = Guid .NewGuid().ToString()});
             if(data > 0)
                 return new HostModel { code = 200, data = data, result = "操作成功" };
             return new HostModel { code = 404, data = data, result = "操作异常" };
